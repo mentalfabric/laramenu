@@ -10,6 +10,7 @@ class CreateSubTable extends Migration
      *
      * @return void
      */
+//    this is creating a subcategories table with 4 columns
     public function up()
     {
         Schema::create('subcategories', function (Blueprint $table) {

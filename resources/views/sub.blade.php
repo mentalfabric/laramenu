@@ -5,7 +5,7 @@
 @endsection
 
 
-
+{{--this whole section works similarly to my main category section, but is based off the cat_id column, which connects my sub categories to my main categories--}}
 @section('content')
 
     @foreach($subcat as $cat)

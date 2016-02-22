@@ -1,6 +1,9 @@
+{{--this is the layout that will be extended to my other webpages--}}
+
 <!DOCTYPE html>
 <html>
 <head>
+    {{--title will be pulled from my database and displayed below--}}
     <title>@yield('title')</title>
 
     <link href="https://fonts.googleapis.com/css?family=Lato:400" rel="stylesheet" type="text/css">
@@ -12,6 +15,7 @@
 <body>
 <div class="container">
     <h1>AppleBee's Menu</h1>
+    {{--content will be pulled from my database and displayed below--}}
     <div class="content">
         @yield('content')
     </div>

@@ -10,6 +10,7 @@ class CreateCatTable extends Migration
      *
      * @return void
      */
+//    this is creating a categories table with 3 columns(id,title,image)
     public function up()
     {
         Schema::create('categories', function (Blueprint $table) {
