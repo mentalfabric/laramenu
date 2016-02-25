@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Category extends Model
 {
-    protected $tbale = 'categories';
+    protected $table = 'categories';
 
     public function subcat() {
         return $this->hasMany(SubCategory::class);

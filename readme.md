@@ -25,3 +25,10 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+
+
+This project was a run through of all the aspects of CRUD. We practiced how to create a database from scratch
+and how to have our page read that data. Then we learned how to shift our data around into a multiple tables (or in me and AJ's case, less tables)
+and at the same time we also learned how to delete particular records from our database if we need to.
+It was interesting doing it AJ's way and then also seeing how the rest of the group was working. It was a
+good experience in achieving a given outcome using various methods.
